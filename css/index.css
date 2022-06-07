@@ -1092,20 +1092,20 @@ body {
   content: "";
   z-index: -1;
   width: 100%;
-  height: 0;
   top: 0;
   left: 0;
-  border: 25px solid var(--third);
+  border: 26px solid var(--third);
+  background-color: var(--third);
 }
 
 .buttons-23::before {
-  border-right: 30px solid transparent;
+  border-right: 30px solid #fff7ed;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
 }
 
 .buttons-23::after {
-  border-left: 30px solid transparent;
+  border-left: 30px solid #fff7ed;
   -webkit-transform: translateX(calc(100% - 56px));
           transform: translateX(calc(100% - 56px));
 }
@@ -1116,8 +1116,8 @@ body {
 }
 
 .buttons-23:hover::after {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
 }
 
 .buttons-23:hover {
